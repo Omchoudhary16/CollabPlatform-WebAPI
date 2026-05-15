@@ -1,0 +1,25 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.vs/
+*.DotSettings.user
+*.swp
+*~
+
+# NuGet packages (only if not using lock files)
+# packages/
+
+# Environment
+appsettings.Development.json       # if you override locally
+appsettings.*.local.json
+.env
+
+# Docker
+# docker-compose.override.yml
+
+# Rider / VS Code
+.idea/
+.vscode/

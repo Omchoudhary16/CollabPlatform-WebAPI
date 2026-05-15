@@ -1,0 +1,6 @@
+@CollabPlatform.Api_HostAddress = http://localhost:5015
+
+GET {{CollabPlatform.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
